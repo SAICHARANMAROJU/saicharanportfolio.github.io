@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Charan's portfolio</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+</head>
+<body>
+     <div class="container">
+          <nav class="header">
+               <div class="nav-logo">
+                    <p class="nav-name">Sai.</p>
+               </div>
+               <div class="nav-menu" id="myNavMenu">
+                    <ul class="nav_menu_list">
+                         <li class="nav_list">
+                              <a href="#home" class="nav-link active-link">Home</a>
+                              <div class="circle"></div>
+                         </li>
+                         <li class="nav_list">
+                              <a href="#about" class="nav-link">About</a>
+                              <div class="circle"></div>
+                         </li>
+                         <li class="nav_list">
+                              <a href="#projects" class="nav-link">Projects</a>
+                              <div class="circle"></div>
+                         </li>
+                         <li class="nav_list">
+                              <a href="#contact" class="nav-link">Contact</a>
+                              <div class="circle"></div>
+                         </li>
+                         <li class="nav_list">
+                              <a href="video.mp4"><i class="fa-solid fa-video" onclick="openVideo()" target="_blank"></i></a>
+                              <div class="circle"></div>
+                         </li>
+
+                    </ul>
+               </div>
+               <div class="mode">
+                    <div class="moon-sun" id="toggle-switch">
+                         <i class="fa fa-moon" id="moon"></i>
+                         <i class="fa fa-sun" id="sun"></i>
+                    </div>
+                    <div class="nav-menu-btn">
+                         <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+                    </div>
+               </div>
+          </nav>
+          <main class="wrapper">
+               <section class="featured-box" id="home">
+                    <div class="featured-text">
+                         <h1 class="hello">Hello, I'm a </h1>
+                         <h2 class="featured-name"></h2>
+                         <span class="typedText"></span>
+                         <p class="text-info">I'm BALA SAI CHARAN MAROJU.</p>
+                         <div class="text-btn">
+                             <a href="#" class="btn">Get Started</a>
+                             <a href="#" class="btn"><i class="fas fa-download"></i>Download CV</a>
+                         </div>
+                         <div class="social_icons1">
+                             
+                              <div class="icon_circle"></div>
+                              <div class="icon"><a href="https://www.instagram.com/sai_charan_maroju_23/"><i class="uil uil-instagram"></i></a></div>
+                              <div class="icon"><a href="https://www.linkedin.com/in/sai-charan-maroju-6576402b5/"><i class="uil uil-linkedin-alt"></i></a></div>
+                              <div class="icon"><a href="https://m.facebook.com/profile.php?id=100071946723971"><i class="uil uil-facebook"></i></a></div>
+                              <div class="icon"><a href="https://github.com/SAICHARANMAROJU"><i class="uil uil-github-alt"></i></a></div>
+                              
+                         </div>                    
+                         <div class="featured-image">
+                              <div class="lamp-container">
+                                   <img src="images/lamp.png" class="lamp">
+                              </div>
+                              <div>
+                                   <img src="images/light.png" class="light1">
+                              </div> 
+                         </div>
+                    </div>
+               </section>
+               <section class="section" id="about">
+                    <div class="top-header">
+                         <h1>About Me</h1>
+                    </div>
+                    <div class="row">
+                         <div class="col">
+                              <div class="about-info">
+                                   <figure class="about-me">
+                                            <figcaption>
+                                            <img src="sai.png" alt="" width="120px" class="profile"/>
+                                            <h2>Web Developer</h2>
+                                            <p>I'm Professional Web Developer with zero experience.</p>
+                                   </figure>
+                                   <button class="about-me-btn">More About Me</button>
+                              </div>
+                         </div>
+                         <div class="skill">
+                              <div class="skill-box">
+                                   <span class="title">HTML</span>
+                                   <div class="skill-bar">
+                                        <span class="skill-per html">
+                                             <span class="tooltip">75%</span>
+                                        </span>
+                                   </div>
+                              </div>
+                              <div class="skill-box">
+                                   <span class="title">CSS</span>
+                                   <div class="skill-bar">
+                                        <span class="skill-per css">
+                                             <span class="tooltip">75%</span>
+                                        </span>
+                                   </div>
+                              </div>
+                              <div class="skill-box">
+                                   <span class="title"> PYTHON</span>
+                                   <div class="skill-bar">
+                                        <span class="skill-per python">
+                                             <span class="tooltip">65%</span>
+                                        </span>
+                                   </div>
+                              </div>
+                              <div class="skill-box">
+                                   <span class="title">JAVA</span>
+                                   <div class="skill-bar">
+                                        <span class="skill-per java">
+                                             <span class="tooltip">45%</span>
+                                        </span>
+                                   </div>
+                              </div>
+                              <div class="skill-box">
+                                   <span class="title">C,C++</span>
+                                   <div class="skill-bar">
+                                        <span class="skill-per cc">
+                                             <span class="tooltip">15%</span>
+                                        </span>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               <section class="section" id="projects">
+                    <div class="top-header">
+                         <h1>Projects</h1>
+                    </div>
+                    <div class="project-container">
+                         <div class="project-box">
+                              <i class="fa fa-briefcase"></i>
+                              <h3>Completed</h3>
+                              <label>20+ projects Completed</label>
+                         </div>
+                         <div class="project-box">
+                              <i class="uil uil-users-alt"></i>
+                              <h3>Portfolios</h3>
+                              <label>10+ portfolios</label>
+                         </div>
+                         <div class="project-box">
+                              <i class="uil uil-award"></i>
+                              <h3>Experience</h3>
+                              <label>0+ Years in Web Development</label>
+                         </div>
+                    </div>
+               </section>
+               <section class="hidden" id="contact">
+                    <div class="top-header">
+                         <h1>Let's Work Together</h1>
+                         <span>Do you have any question regarding topics, Contact Me here</span>
+                    </div>
+                    <div class="row">
+                         <div class="col">
+                              <div class="contact-info">
+                                   <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                                   <p><a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJlFCswTdhjZFRhhtvqbJRVPqjbMgnLsPznfxhkVPmcNNbLCPwWDPDrHCvjrxmftNVnTdfL"><i class="fa-regular fa-envelope">Email: saicharanmaroju23@gmail.com</i></a></p>
+                                   <p><i class="uil uil-phone">Phone: +91 7675897637</i></p>
+                              </div>
+                         </div>
+                         <div class="col">
+                              <div class="form-control">
+                                   <div class="form-inputs">
+                                        <input type="text" class="input-field" placeholder="Your Name">
+                                        <input type="text" class="input-field" placeholder="Your Email">
+                                   </div>
+                                   <div class="text-area">
+                                        <input type="text" class="input-subject" placeholder="Subject">
+                                        <textarea placeholder="Message"></textarea>
+                                  </div>
+                                  <div class="form-button">
+                                        <button class="btn">send <i class="uil uil-message"></i></button>
+                                  </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+          </main>
+          <footer>
+               <div class="middle-footer">
+                    <ul class="footer-menu">
+                         <li class="footer_menu_list">
+                              <a href="#home">Home</a>
+                         </li>
+                         <li class="footer_menu_list">
+                              <a href="#about">About</a>
+                         </li>
+                         <li class="footer_menu_list">
+                              <a href="#projects">Projects</a>
+                         </li>
+                         <li class="footer_menu_list">
+                              <a href="#contact">Contact</a>
+                         </li>
+                    </ul>
+               </div>
+               <div class="footer-social-icons">
+                    <div class="icon"><a href="https://www.instagram.com/sai_charan_maroju_23/"><i class="uil uil-instagram"></i></a></div>
+                    <div class="icon"><a href="https://www.linkedin.com/in/sai-charan-maroju-6576402b5/"><i class="uil uil-linkedin-alt"></i></a></div>
+                    <div class="icon"><a href="https://m.facebook.com/profile.php?id=100071946723971"><i class="uil uil-facebook"></i></a></div>
+                    <div class="icon"><a href="https://github.com/SAICHARANMAROJU"><i class="uil uil-github-alt"></i></a></div>
+                </div>                
+               <div class="bottom-footer">
+                    <p>Copyright &copy;<a href="#home" style="text-decoration: none;">SAICHARAN</a>-All rights reserved 2024</p>
+               </div>
+          </footer>
+     </div>
+     <script src="https://cdn.jsdelivr.net/npm/typed.js"></script>
+     <script src="script.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/react-is/18.2.0/umd/react-is.production.min.js" integrity="sha512-oEyxcPmURibEvMHeDB8pmi2e/Xngsb9KB28K1QnCXoGB+ndrgVJq2NOeAFutBUFPQ8TC3MWHJNSsqNltVzY6cA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     
+     <script >
+          function openVideo(){
+               var VideoUrl='video.mp4';
+               window.open(VideoUrl, "_blank")
+      }
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js" integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
