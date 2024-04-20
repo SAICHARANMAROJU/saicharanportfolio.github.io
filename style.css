@@ -1140,3 +1140,32 @@ footer{
     
 
     
+.about-info, .skill {
+    position: fixed;
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.about-info {
+    left: -100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.skill {
+    right: -100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.fade-in {
+    opacity: 1;
+}
+
+.slide-in-left {
+    transform: translateX(0);
+}
+
+.slide-in-right {
+    transform: translateX(0);
+}
